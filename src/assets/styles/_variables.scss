@@ -1,0 +1,28 @@
+// Colors
+$text-primary: #1c1d21;
+$text-secondary: #ffffff;
+$text-muted: #1c1d21cc;
+$text-muted-secondary: #1c1d2199;
+$text-gradient: radial-gradient(76.36% 212.87% at 87.43% 91.15%, #476d9f 0%, #93b2db 55.72%);
+
+$bg-gray: #1c1d210f;
+$bg-gradient:
+    linear-gradient(143.27deg, #cdd9e9 3.11%, rgba(205, 217, 233, 0.2) 56.19%),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+
+// Fonts
+$font-heading:
+    'Inter',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+$font-body:
+    'TT Norms',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+
+// Sizes
+$radius: 24px;

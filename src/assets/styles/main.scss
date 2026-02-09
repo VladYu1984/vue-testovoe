@@ -1,0 +1,53 @@
+@use '_variables' as *;
+@use '_mixins' as *;
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: $font-body;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    line-height: 130%;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    font-family: $font-heading;
+    text-transform: uppercase;
+
+    @include respond('desktop') {
+        font-size: 38px;
+    }
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: $font-heading;
+    text-transform: uppercase;
+
+    @include respond('desktop') {
+        font-size: 26px;
+    }
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}

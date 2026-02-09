@@ -1,0 +1,13 @@
+@mixin respond($type) {
+    @if $type == mobile {
+        @media (max-width: 1000px) {
+            @content;
+        }
+    } @else if $type == desktop {
+        @media (min-width: 1001px) {
+            @content;
+        }
+    } @else {
+        @warn "Unknown type `#{$type}`. Use 'mobile' or 'desktop'.";
+    }
+}
