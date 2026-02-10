@@ -25,7 +25,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="stability__result result">
+                <div class="stability__result result" @click="$router.push('/slider')">
                     <h2 class="result__title">— результат надежной работы</h2>
                 </div>
             </div>
