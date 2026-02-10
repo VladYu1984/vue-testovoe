@@ -15,6 +15,7 @@
     "format": "prettier --write --experimental-cli src/"
   },
   "dependencies": {
+    "swiper": "^12.1.0",
     "vue": "^3.5.27",
     "vue-router": "^5.0.1"
   },

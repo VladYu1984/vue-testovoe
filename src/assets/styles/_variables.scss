@@ -9,6 +9,12 @@ $bg-gray: #1c1d210f;
 $bg-gradient:
     linear-gradient(143.27deg, #cdd9e9 3.11%, rgba(205, 217, 233, 0.2) 56.19%),
     linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+$bg-gradient-secondary: radial-gradient(
+    71.66% 199.46% at 92.13% 90.12%,
+    #476d9f 0%,
+    #93b2db 98.77%
+);
+$bg-blue: #272aeb;
 
 // Fonts
 $font-heading:
@@ -26,3 +32,4 @@ $font-body:
 
 // Sizes
 $radius: 24px;
+$radius-full: 9999px;

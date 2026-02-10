@@ -1,10 +1,8 @@
-<script setup lang="ts">
-import Information from './views/Information.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
     <main class="app">
-        <Information />
+        <router-view />
     </main>
 </template>
 
